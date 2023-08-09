@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 import br.agr.multsoft.driver.GenericPage;
 import br.agr.multsoft.pages.LoginPage;
 
-public class AddFazendaSucessoTeste extends GenericPage {
+public class AddAnimalSucessoTeste extends GenericPage {
 
-    @DisplayName("Adicionar Fazenda com sucesso")
+    @DisplayName("Adicionar Animal com sucesso")
     @Test
     public void testAddFazendaSucesso() throws Exception {
 

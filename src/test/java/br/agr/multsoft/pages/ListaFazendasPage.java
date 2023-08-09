@@ -13,7 +13,7 @@ public class ListaFazendasPage extends GenericPage {
     }
 
     public ListaFazendasPage informarCampoPesquisa(String pesquisa) throws Exception {
-        Thread.sleep(5000);
+        Thread.sleep(9000);
         driver.findElement(By.cssSelector("#filtro_search_keyword")).sendKeys(pesquisa);
 
         return this;

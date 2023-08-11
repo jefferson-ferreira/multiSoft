@@ -10,7 +10,7 @@ public class AddAnimalSucessoTeste extends GenericPage {
 
     @DisplayName("Adicionar Animal com sucesso")
     @Test
-    public void testAddFazendaSucesso() throws Exception {
+    public void testAddAnimalSucesso() throws Exception {
 
         String mensagemExibida = new LoginPage(driver)
             .informarEmail("marcus.tabosa@multbovinos.com.br")
